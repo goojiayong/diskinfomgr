@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{460a7a28-aa6b-4278-b002-76c34ce77185}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{fad807cb-6cc5-4120-bda9-a980bef01a8c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{81a56ed4-cc0c-4931-9365-5b428b6ec28b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{b26e5dcb-90c3-4e2b-b9a4-f87a23548365}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="diskinfomgr.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommFunc.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EasyLog.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IniFile.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDiskInfo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskinfoApp.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectDiskInfo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDiskType.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SasDisk.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SataDisk.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardRaidDiskInfo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="JbodDiskInfo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommFunc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyLog.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IniFile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDiskInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskinfoApp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commdef.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectDiskInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDiskType.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SasDisk.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SataDisk.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardRaidDiskInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tDiskInfo.h">
+      <Filter>Make files</Filter>
+    </ClInclude>
+    <ClInclude Include="JbodDiskInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
